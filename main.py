@@ -77,6 +77,6 @@ if __name__ == '__main__':
 	plt.plot(times, ke, label="kinetic energy")
 	plt.plot(times, pe, label="potential energy")
 	plt.plot(times, total, label="total energy")
-	plt.plot([dur/2, dur/2], [0, np.max(total)], label="halftime line")
+	plt.plot([dur/2, dur/2], [0, np.max(total)], label="half-time line")
 	plt.legend()
 	plt.show()
