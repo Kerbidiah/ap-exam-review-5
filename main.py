@@ -43,7 +43,7 @@ def predictImpact(h, v=0, g=GRAVITY):
 if __name__ == '__main__':
 	m = 1 # mass in kg
 	height = 42 # drop height
-	dT = 1/200 # how big each time-step is (in seconds)
+	dT = 1/500 # how big each time-step is (in seconds)
 
 	dur = predictImpact(height)
 
